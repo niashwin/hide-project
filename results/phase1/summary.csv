@@ -1,0 +1,170 @@
+metric,value
+tasks.1.hide.mean,0.5965999999999999
+tasks.1.hide.std,0.009350935782048776
+tasks.1.hide.ci_lower,0.5885999999999999
+tasks.1.hide.ci_upper,0.6047999999999999
+tasks.1.hide.values,"[0.585, 0.608, 0.589, 0.594, 0.607]"
+tasks.1.no_memory.mean,0.0
+tasks.1.no_memory.std,0.0
+tasks.1.no_memory.ci_lower,0.0
+tasks.1.no_memory.ci_upper,0.0
+tasks.1.no_memory.values,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+tasks.1.full_context.mean,0.773
+tasks.1.full_context.std,0.0
+tasks.1.full_context.ci_lower,0.773
+tasks.1.full_context.ci_upper,0.773
+tasks.1.full_context.values,"[0.773, 0.773, 0.773, 0.773, 0.773]"
+tasks.1.random_retrieval.mean,0.5312000000000001
+tasks.1.random_retrieval.std,0.008280096617793787
+tasks.1.random_retrieval.ci_lower,0.5237999999999999
+tasks.1.random_retrieval.ci_upper,0.5384049999999999
+tasks.1.random_retrieval.values,"[0.541, 0.531, 0.54, 0.522, 0.522]"
+tasks.1.vanilla_rag.mean,0.617
+tasks.1.vanilla_rag.std,0.0
+tasks.1.vanilla_rag.ci_lower,0.617
+tasks.1.vanilla_rag.ci_upper,0.617
+tasks.1.vanilla_rag.values,"[0.617, 0.617, 0.617, 0.617, 0.617]"
+tasks.2.hide.mean,0.3414
+tasks.2.hide.std,0.013893883546366715
+tasks.2.hide.ci_lower,0.32999999999999996
+tasks.2.hide.ci_upper,0.3529999999999999
+tasks.2.hide.values,"[0.343, 0.36, 0.319, 0.35, 0.335]"
+tasks.2.no_memory.mean,0.0
+tasks.2.no_memory.std,0.0
+tasks.2.no_memory.ci_lower,0.0
+tasks.2.no_memory.ci_upper,0.0
+tasks.2.no_memory.values,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+tasks.2.full_context.mean,0.487
+tasks.2.full_context.std,0.0
+tasks.2.full_context.ci_lower,0.487
+tasks.2.full_context.ci_upper,0.487
+tasks.2.full_context.values,"[0.487, 0.487, 0.487, 0.487, 0.487]"
+tasks.2.random_retrieval.mean,0.31720000000000004
+tasks.2.random_retrieval.std,0.010777754868245993
+tasks.2.random_retrieval.ci_lower,0.3084
+tasks.2.random_retrieval.ci_upper,0.32639999999999997
+tasks.2.random_retrieval.values,"[0.305, 0.307, 0.319, 0.32, 0.335]"
+tasks.2.vanilla_rag.mean,0.229
+tasks.2.vanilla_rag.std,0.0
+tasks.2.vanilla_rag.ci_lower,0.229
+tasks.2.vanilla_rag.ci_upper,0.229
+tasks.2.vanilla_rag.values,"[0.229, 0.229, 0.229, 0.229, 0.229]"
+tasks.3.hide.mean,0.28099999999999997
+tasks.3.hide.std,0.012149074038789941
+tasks.3.hide.ci_lower,0.2712
+tasks.3.hide.ci_upper,0.292
+tasks.3.hide.values,"[0.277, 0.302, 0.277, 0.284, 0.265]"
+tasks.3.no_memory.mean,0.006
+tasks.3.no_memory.std,0.0
+tasks.3.no_memory.ci_lower,0.006
+tasks.3.no_memory.ci_upper,0.006
+tasks.3.no_memory.values,"[0.006, 0.006, 0.006, 0.006, 0.006]"
+tasks.3.full_context.mean,0.267
+tasks.3.full_context.std,0.0
+tasks.3.full_context.ci_lower,0.267
+tasks.3.full_context.ci_upper,0.267
+tasks.3.full_context.values,"[0.267, 0.267, 0.267, 0.267, 0.267]"
+tasks.3.random_retrieval.mean,0.229
+tasks.3.random_retrieval.std,0.013371611720357425
+tasks.3.random_retrieval.ci_lower,0.219
+tasks.3.random_retrieval.ci_upper,0.242
+tasks.3.random_retrieval.values,"[0.217, 0.234, 0.219, 0.253, 0.222]"
+tasks.3.vanilla_rag.mean,0.023
+tasks.3.vanilla_rag.std,0.0
+tasks.3.vanilla_rag.ci_lower,0.023
+tasks.3.vanilla_rag.ci_upper,0.023
+tasks.3.vanilla_rag.values,"[0.023, 0.023, 0.023, 0.023, 0.023]"
+tasks.4.hide.mean,0.3652
+tasks.4.hide.std,0.005775811631277466
+tasks.4.hide.ci_lower,0.36
+tasks.4.hide.ci_upper,0.37
+tasks.4.hide.values,"[0.37, 0.371, 0.356, 0.361, 0.368]"
+tasks.4.no_memory.mean,0.011
+tasks.4.no_memory.std,0.0
+tasks.4.no_memory.ci_lower,0.011
+tasks.4.no_memory.ci_upper,0.011
+tasks.4.no_memory.values,"[0.011, 0.011, 0.011, 0.011, 0.011]"
+tasks.4.full_context.mean,0.305
+tasks.4.full_context.std,0.0
+tasks.4.full_context.ci_lower,0.305
+tasks.4.full_context.ci_upper,0.305
+tasks.4.full_context.values,"[0.305, 0.305, 0.305, 0.305, 0.305]"
+tasks.4.random_retrieval.mean,0.35960000000000003
+tasks.4.random_retrieval.std,0.006151422599691885
+tasks.4.random_retrieval.ci_lower,0.35459999999999997
+tasks.4.random_retrieval.ci_upper,0.3652
+tasks.4.random_retrieval.values,"[0.353, 0.359, 0.362, 0.37, 0.354]"
+tasks.4.vanilla_rag.mean,0.372
+tasks.4.vanilla_rag.std,0.0
+tasks.4.vanilla_rag.ci_lower,0.372
+tasks.4.vanilla_rag.ci_upper,0.372
+tasks.4.vanilla_rag.values,"[0.372, 0.372, 0.372, 0.372, 0.372]"
+tasks.5.hide.mean,0.7928000000000001
+tasks.5.hide.std,0.008280096617793787
+tasks.5.hide.ci_lower,0.7856000000000001
+tasks.5.hide.ci_upper,0.7994000000000001
+tasks.5.hide.values,"[0.786, 0.803, 0.8, 0.794, 0.781]"
+tasks.5.no_memory.mean,0.0
+tasks.5.no_memory.std,0.0
+tasks.5.no_memory.ci_lower,0.0
+tasks.5.no_memory.ci_upper,0.0
+tasks.5.no_memory.values,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+tasks.5.full_context.mean,0.8400000000000001
+tasks.5.full_context.std,1.1102230246251565e-16
+tasks.5.full_context.ci_lower,0.8400000000000001
+tasks.5.full_context.ci_upper,0.8400000000000001
+tasks.5.full_context.values,"[0.84, 0.84, 0.84, 0.84, 0.84]"
+tasks.5.random_retrieval.mean,0.6198
+tasks.5.random_retrieval.std,0.017701977290687065
+tasks.5.random_retrieval.ci_lower,0.6066
+tasks.5.random_retrieval.ci_upper,0.6378
+tasks.5.random_retrieval.values,"[0.618, 0.615, 0.6, 0.613, 0.653]"
+tasks.5.vanilla_rag.mean,0.842
+tasks.5.vanilla_rag.std,0.0
+tasks.5.vanilla_rag.ci_lower,0.842
+tasks.5.vanilla_rag.ci_upper,0.842
+tasks.5.vanilla_rag.values,"[0.842, 0.842, 0.842, 0.842, 0.842]"
+methods.hide.mean,0.47540000000000004
+methods.hide.std,0.007221080251596703
+methods.hide.ci_lower,0.4702
+methods.hide.ci_upper,0.48224
+methods.no_memory.mean,0.0034000000000000002
+methods.no_memory.std,0.0
+methods.no_memory.ci_lower,0.0034000000000000002
+methods.no_memory.ci_upper,0.0034000000000000002
+methods.full_context.mean,0.5344
+methods.full_context.std,0.0
+methods.full_context.ci_lower,0.5344
+methods.full_context.ci_upper,0.5344
+methods.random_retrieval.mean,0.41136
+methods.random_retrieval.std,0.0042150207591422195
+methods.random_retrieval.ci_lower,0.40776
+methods.random_retrieval.ci_upper,0.41504
+methods.vanilla_rag.mean,0.4166
+methods.vanilla_rag.std,0.0
+methods.vanilla_rag.ci_lower,0.4166
+methods.vanilla_rag.ci_upper,0.4166
+validation.hide_beats_no_memory,5
+validation.hide_beats_no_memory_pass,True
+validation.hide_beats_random,5
+validation.hide_beats_random_pass,True
+memory_scaling.10.mean,0.04
+memory_scaling.10.std,0.03521363372331802
+memory_scaling.10.ci_lower,0.01
+memory_scaling.10.ci_upper,0.06999999999999999
+memory_scaling.50.mean,0.11000000000000001
+memory_scaling.50.std,0.045837878562506686
+memory_scaling.50.ci_lower,0.07
+memory_scaling.50.ci_upper,0.14899999999999997
+memory_scaling.100.mean,0.0865
+memory_scaling.100.std,0.04665595115071363
+memory_scaling.100.ci_lower,0.05000000000000001
+memory_scaling.100.ci_upper,0.13016666666666662
+memory_scaling.200.mean,0.043033333333333326
+memory_scaling.200.std,0.026898864081757963
+memory_scaling.200.ci_lower,0.021666666666666664
+memory_scaling.200.ci_upper,0.06806666666666665
+memory_scaling.500.mean,0.034800000000000005
+memory_scaling.500.std,0.011145203253218652
+memory_scaling.500.ci_lower,0.026166666666666664
+memory_scaling.500.ci_upper,0.04563333333333334

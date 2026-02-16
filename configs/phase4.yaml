@@ -1,0 +1,45 @@
+# Phase 4: "Memory That Transfers" — Multi-Modal
+# Shared HIDE space across text/image/audio with cross-modal retrieval
+
+text_encoder:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  dim: 384
+  gpu: "cuda:1"
+
+clip:
+  model: "openai/clip-vit-base-patch32"
+  revision: "refs/pr/66"
+  dim: 512
+  gpu: "cuda:2"
+
+whisper:
+  model: "openai/whisper-small"
+  dim: 384
+  gpu: "cuda:3"
+
+shared_dim: 512
+
+projection:
+  text_in_dim: 384
+  image_in_dim: 512
+  audio_in_dim: 384
+  output_dim: 512
+  lr: 1.0e-3
+  batch_size: 128
+  epochs: 20
+  patience: 5
+  temperature: 0.07
+  gpu: "cuda:1"
+
+generation:
+  model: "Qwen/Qwen2.5-7B"
+  gpu: "cuda:0"
+
+dataset:
+  coco: "jxie/coco_captions"
+  flickr: "lmms-lab/flickr30k"
+  esc50_url: "https://github.com/karolpiczak/ESC-50/archive/master.zip"
+  max_train: 2000
+  max_test: 500
+
+seeds: [42, 123, 456, 789, 1024]

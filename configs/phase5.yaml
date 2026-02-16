@@ -1,0 +1,57 @@
+# Phase 5 v2: Fixed Spacing, TOT, Topology
+# All hyperparameters in YAML, never hardcoded
+
+embedding:
+  model: "BAAI/bge-large-en-v1.5"
+  dim: 1024
+  gpu: "cuda:1"
+  batch_size: 256
+
+generation:
+  model: "Qwen/Qwen2.5-7B"
+  gpu: "cuda:0"
+
+# DRM unchanged from v1
+drm:
+  n_lists: 24
+  words_per_list: 15
+  threshold_start: 0.50
+  threshold_stop: 0.95
+  threshold_step: 0.01
+  human_false_alarm_rate: 0.55
+
+# Spacing v2: distractors + noise
+spacing_v2:
+  n_facts: 100
+  n_distractors: 100000
+  sigma_values: [0.3, 0.4, 0.5, 0.6, 0.8]
+  best_sigma: 0.5
+  conditions:
+    massed: [0, 60, 120]
+    short: [0, 3600, 7200]
+    medium: [0, 86400, 172800]
+    long: [0, 604800, 1209600]
+  test_delay: 2592000
+
+# TOT v2: PCA + query noise
+tot_v2:
+  pca_dim: 128
+  query_noise_sigma: 1.2
+  sim_threshold: 0.5
+  max_rank: 20
+  n_stored: 10000
+  n_queries: 10000
+  human_rate: 0.015
+
+# Topology v2: real Wikipedia + multi-scale
+topology_v2:
+  n_samples: 5000
+  max_edge_lengths: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0]
+  subsample_for_rips: 500
+  max_dim: 2
+
+# Wikipedia for distractors and topology
+wikipedia_v2:
+  n_sentences: 100000
+
+seeds: [42, 123, 456, 789, 1024]

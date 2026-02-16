@@ -1,0 +1,222 @@
+{
+  "seed": 789,
+  "n_facts": 100,
+  "results": {
+    "dist10000_sigma0.1": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist10000_sigma0.15": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist10000_sigma0.2": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist10000_sigma0.25": {
+      "massed": 0.84,
+      "short": 0.95,
+      "medium": 0.9,
+      "long": 1.0
+    },
+    "dist10000_sigma0.3": {
+      "massed": 0.05,
+      "short": 0.12,
+      "medium": 0.1,
+      "long": 0.98
+    },
+    "dist10000_sigma0.35": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.76
+    },
+    "dist10000_sigma0.4": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.17
+    },
+    "dist10000_sigma0.45": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist10000_sigma0.5": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist25000_sigma0.1": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist25000_sigma0.15": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist25000_sigma0.2": {
+      "massed": 1.0,
+      "short": 0.97,
+      "medium": 0.99,
+      "long": 1.0
+    },
+    "dist25000_sigma0.25": {
+      "massed": 0.35,
+      "short": 0.4,
+      "medium": 0.36,
+      "long": 1.0
+    },
+    "dist25000_sigma0.3": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.68
+    },
+    "dist25000_sigma0.35": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.08
+    },
+    "dist25000_sigma0.4": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist25000_sigma0.45": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist25000_sigma0.5": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist50000_sigma0.1": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist50000_sigma0.15": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist50000_sigma0.2": {
+      "massed": 1.0,
+      "short": 0.99,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist50000_sigma0.25": {
+      "massed": 0.21,
+      "short": 0.11,
+      "medium": 0.17,
+      "long": 0.99
+    },
+    "dist50000_sigma0.3": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.71
+    },
+    "dist50000_sigma0.35": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.08
+    },
+    "dist50000_sigma0.4": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist50000_sigma0.45": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist50000_sigma0.5": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist100000_sigma0.1": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist100000_sigma0.15": {
+      "massed": 1.0,
+      "short": 1.0,
+      "medium": 1.0,
+      "long": 1.0
+    },
+    "dist100000_sigma0.2": {
+      "massed": 0.98,
+      "short": 0.97,
+      "medium": 0.99,
+      "long": 1.0
+    },
+    "dist100000_sigma0.25": {
+      "massed": 0.12,
+      "short": 0.18,
+      "medium": 0.2,
+      "long": 1.0
+    },
+    "dist100000_sigma0.3": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.39
+    },
+    "dist100000_sigma0.35": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.01
+    },
+    "dist100000_sigma0.4": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist100000_sigma0.45": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    },
+    "dist100000_sigma0.5": {
+      "massed": 0.0,
+      "short": 0.0,
+      "medium": 0.0,
+      "long": 0.0
+    }
+  }
+}

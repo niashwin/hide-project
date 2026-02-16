@@ -1,0 +1,11 @@
+metric,value
+seed,1024
+no_consolidation.compression_ratio,1.0
+no_consolidation.mean_backward_transfer,-0.0958
+no_consolidation.final_memory_count,10000
+gentle_consolidation.compression_ratio,0.3572
+gentle_consolidation.mean_backward_transfer,-0.42960000000000004
+gentle_consolidation.final_memory_count,3572
+full_hide_v2.compression_ratio,0.4325
+full_hide_v2.mean_backward_transfer,-0.3822
+full_hide_v2.final_memory_count,4325

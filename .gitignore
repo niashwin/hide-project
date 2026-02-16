@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data caches (large, regenerable)
+data_cache/
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Validation (not needed in repo)
+validation_report/
+
+# Environment
+.env
+*.env
+
+# Separate projects
+Followup_NoEscape/
+paper/scripts/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+
+# Old paper versions (kept locally, not in repo)
+paper/hide_paper_v[0-9]*.tex
+paper/hide_paper_v[0-9]*.pdf

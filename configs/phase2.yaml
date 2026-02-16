@@ -1,0 +1,72 @@
+# Phase 2 v2: Improved Ebbinghaus Forgetting Curve
+# Distractors + beta sweep + embedding noise
+
+embedding:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  dim: 384
+  gpu: "cuda:1"
+  batch_size: 512
+
+temporal:
+  dim: 64
+  scales:
+    fine: 86400
+    medium: 2592000
+    coarse: 31536000
+
+decay:
+  methods: ["power_law"]
+  default: "power_law"
+  power_law:
+    beta: 1.0
+    psi: 0.5
+
+context_projector:
+  input_dim: 832
+  output_dim: 384
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  epochs: 10
+  batch_size: 256
+  temperature: 0.07
+  validation_split: 0.1
+  gpu: "cuda:1"
+
+positional_encoding:
+  dim: 384
+  max_len: 500
+
+generation:
+  model: "Qwen/Qwen2.5-7B"
+  fallback: "Qwen/Qwen2.5-3B"
+  gpu: "cuda:0"
+  max_new_tokens: 10
+  temperature: 0.0
+
+dataset:
+  name: "Yova/templama"
+
+ebbinghaus:
+  n_facts: 1000
+  simulated_days: 30
+  human_times_min: [20, 60, 480, 1440, 2880, 8640, 44640]
+  human_retention: [0.58, 0.44, 0.36, 0.34, 0.28, 0.25, 0.21]
+
+ebbinghaus_v2:
+  n_distractors: 50000
+  sigma_values: [0.0, 0.1, 0.3, 0.5]
+  best_sigma: 0.3
+  beta_sweep: [0.5, 1.0, 2.0, 5.0, 10.0, 20.0]
+
+babi:
+  dataset: "Muennighoff/babi"
+  tasks: [1, 2, 3, 4, 5]
+  retrieval_k:
+    1: 3
+    2: 5
+    3: 5
+    4: 5
+    5: 5
+  max_test_samples: 1000
+
+seeds: [42, 123, 456, 789, 1024]

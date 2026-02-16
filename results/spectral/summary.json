@@ -1,0 +1,141 @@
+{
+  "model": "MiniLM-L6-v2",
+  "dim": 384,
+  "pca": false,
+  "sigma": 0.15,
+  "n_seeds": 5,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "reference": {
+    "bge_large_pca64_b": 0.161,
+    "description": "BGE-large at PCA d=64 with ~40K distractors"
+  },
+  "near": {
+    "0": {
+      "n_near_per_target": 0,
+      "total_distractors": 0,
+      "n_valid_seeds": 5,
+      "mean_b": 0.6776080487093795,
+      "b_ci": [
+        0.58302158651732,
+        0.7885213569843297
+      ],
+      "b_std": 0.1161791152730759,
+      "b_values": [
+        0.5957375711626651,
+        0.6460550220310876,
+        0.538788884115091,
+        0.7377535424775887,
+        0.8697052237604649
+      ],
+      "mean_r_squared": 0.8502928148947815,
+      "mean_retention": 0.2679982488290239,
+      "mean_rank": 4.211454220637519
+    },
+    "5": {
+      "n_near_per_target": 5,
+      "total_distractors": 1000,
+      "n_valid_seeds": 5,
+      "mean_b": 1.0686404682759207,
+      "b_ci": [
+        0.5213418180635211,
+        1.6399469000830986
+      ],
+      "b_std": 0.6641800311995957,
+      "b_values": [
+        1.5722986000533294,
+        0.1654781632332403,
+        0.5502882777841455,
+        1.0551373003089421,
+        1.999999999999946
+      ],
+      "mean_r_squared": 0.5878300372853607,
+      "mean_retention": 0.047306122448979596,
+      "mean_rank": 21.816789867938564
+    },
+    "10": {
+      "n_near_per_target": 10,
+      "total_distractors": 2000,
+      "n_valid_seeds": 3,
+      "mean_b": 1.6752365283948691,
+      "b_ci": [
+        1.0257095851846076,
+        1.9999999999999998
+      ],
+      "b_std": 0.4592849061073454,
+      "b_values": [
+        1.9999999999999998,
+        1.0257095851846076,
+        1.9999999999999998
+      ],
+      "mean_r_squared": 0.9455221966656606,
+      "mean_retention": 0.033928571428571426,
+      "mean_rank": 39.50323908061971
+    },
+    "20": {
+      "n_near_per_target": 20,
+      "total_distractors": 4000,
+      "n_valid_seeds": 0,
+      "mean_b": 0.0,
+      "b_ci": [
+        0.0,
+        0.0
+      ],
+      "b_std": 0.0,
+      "b_values": [],
+      "mean_r_squared": 0.0,
+      "mean_retention": 0.0,
+      "mean_rank": 80.75795882012024
+    },
+    "50": {
+      "n_near_per_target": 50,
+      "total_distractors": 10000,
+      "n_valid_seeds": 0,
+      "mean_b": 0.0,
+      "b_ci": [
+        0.0,
+        0.0
+      ],
+      "b_std": 0.0,
+      "b_values": [],
+      "mean_r_squared": 0.0,
+      "mean_retention": 0.0,
+      "mean_rank": 180.4091017222393
+    },
+    "100": {
+      "n_near_per_target": 100,
+      "total_distractors": 20000,
+      "n_valid_seeds": 0,
+      "mean_b": 0.0,
+      "b_ci": [
+        0.0,
+        0.0
+      ],
+      "b_std": 0.0,
+      "b_values": [],
+      "mean_r_squared": 0.0,
+      "mean_retention": 0.0,
+      "mean_rank": 353.32984725438115
+    },
+    "200": {
+      "n_near_per_target": 200,
+      "total_distractors": 40000,
+      "n_valid_seeds": 0,
+      "mean_b": 0.0,
+      "b_ci": [
+        0.0,
+        0.0
+      ],
+      "b_std": 0.0,
+      "b_values": [],
+      "mean_r_squared": 0.0,
+      "mean_retention": 0.0,
+      "mean_rank": 692.5058788638161
+    }
+  }
+}

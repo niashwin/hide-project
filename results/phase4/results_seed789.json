@@ -1,0 +1,28 @@
+{
+  "seed": 789,
+  "hide_retrieval": {
+    "i2t_r1": 0.194,
+    "i2t_r5": 0.458,
+    "i2t_r10": 0.594,
+    "i2t_median_rank": 7.0,
+    "t2i_r1": 0.232,
+    "t2i_r5": 0.486,
+    "t2i_r10": 0.61,
+    "t2i_median_rank": 6.0
+  },
+  "random_baseline": {
+    "i2t_r1": 0.0,
+    "i2t_r5": 0.006,
+    "i2t_r10": 0.024,
+    "t2i_r1": 0.0,
+    "t2i_r5": 0.014,
+    "t2i_r10": 0.024
+  },
+  "transfer": {
+    "r1": 0.22,
+    "r5": 0.5,
+    "r10": 0.69
+  },
+  "n_coco_train": 2000,
+  "n_flickr_test": 500
+}

@@ -1,0 +1,52 @@
+# Phase 3 v2: Gentle Consolidation
+# Conservative parameters + selective (age-based) consolidation
+
+clip:
+  model: "openai/clip-vit-base-patch32"
+  dim: 512
+  gpu: "cuda:2"
+  batch_size: 512
+
+embedding:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  dim: 384
+  gpu: "cuda:1"
+
+generation:
+  model: "Qwen/Qwen2.5-7B"
+  gpu: "cuda:0"
+  max_new_tokens: 10
+  temperature: 0.0
+
+# v1 aggressive params (for comparison)
+consolidation_aggressive:
+  trigger_interval: 500
+  hdbscan_min_cluster_size: 5
+  merge_centroid_threshold: 0.15
+  outlier_sigma: 1.0
+  replay_count: 100
+
+# v2 gentle params
+consolidation:
+  trigger_interval: 1000
+  hdbscan_min_cluster_size: 10
+  merge_centroid_threshold: 0.05
+  outlier_sigma: 2.0
+  replay_count: 100
+  consolidation_min_age: 500  # Only consolidate memories stored >500 steps ago
+
+continual_learning:
+  n_tasks: 10
+  classes_per_task: 10
+  top_k: 5
+  conditions:
+    - "no_consolidation"
+    - "gentle_consolidation"
+    - "full_hide_v2"
+    - "consolidation_only"
+    - "replay_only"
+    - "full_hide"
+    - "naive_pruning"
+    - "experience_replay"
+
+seeds: [42, 123, 456, 789, 1024]

@@ -1,0 +1,45 @@
+# HIDE v3 Experiment Configuration
+# Interference Theory + Spacing Sweep + Topology (Real Wikipedia)
+
+# Common settings
+seeds: [42, 123, 456, 789, 1024]
+bootstrap_samples: 10000
+embedding_model: "BAAI/bge-large-en-v1.5"
+embedding_dim: 1024
+
+# Interference experiment
+interference:
+  n_articles: 200
+  near_counts_per_target: [0, 5, 10, 20, 50, 100, 200]
+  far_counts_total: [0, 1000, 5000, 10000, 50000]
+  sigma: 0.15
+  simulated_days: 30
+  pca_dims: [64, 128, 256, 1024]
+  retrieval: top-1
+  data_source: "wikimedia/wikipedia (20231101.en)"
+  near_condition: "same-article sentences"
+  far_condition: "cross-article sentences"
+
+# Spacing sweep
+spacing_sweep:
+  n_facts: 100
+  n_repetitions: 3
+  spacing_conditions:
+    massed: [0, 1, 2]        # minutes
+    short: [0, 60, 120]       # minutes
+    medium: [0, 1440, 2880]   # minutes (1d, 2d)
+    long: [0, 10080, 20160]   # minutes (1w, 2w)
+  test_time_days: 30
+  sigma_sweep: [0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5]
+  distractor_counts: [10000, 25000, 50000, 100000]
+  noise_model: "age-proportional, dimension-normalized"
+
+# Topology
+topology:
+  n_subsample: 1000
+  n_total_sentences: 5000
+  edge_lengths: [0.3, 0.5, 0.7, 0.9, 1.0, 1.2, 1.5, 2.0, 2.5, 3.0]
+  max_complex_dim: 2
+  library: "gudhi"
+  per_category_analysis: true
+  data_source: "wikimedia/wikipedia (20231101.en)"

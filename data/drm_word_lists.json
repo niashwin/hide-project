@@ -1,0 +1,30 @@
+{
+  "source": "Roediger, H. L. & McDermott, K. B. (1995). Creating false memories: Remembering words not presented in lists. JEPL:LMC, 21, 803-814.",
+  "license": "Public domain",
+  "lists": {
+    "SLEEP": {"studied": ["bed","rest","awake","tired","dream","wake","snooze","blanket","doze","slumber","snore","nap","peace","yawn","drowsy"], "lure": "sleep"},
+    "NEEDLE": {"studied": ["thread","pin","eye","sewing","sharp","point","prick","thimble","haystack","thorn","hurt","injection","syringe","cloth","knitting"], "lure": "needle"},
+    "ROUGH": {"studied": ["smooth","bumpy","road","tough","sandpaper","jagged","ready","coarse","uneven","riders","rugged","sand","boards","ground","gravel"], "lure": "rough"},
+    "SWEET": {"studied": ["sour","candy","sugar","bitter","good","taste","tooth","nice","honey","soda","chocolate","heart","cake","tart","pie"], "lure": "sweet"},
+    "CHAIR": {"studied": ["table","sit","legs","seat","couch","desk","recliner","sofa","wood","cushion","swivel","stool","sitting","rocking","bench"], "lure": "chair"},
+    "WINDOW": {"studied": ["door","glass","pane","shade","ledge","sill","house","open","curtain","frame","view","breeze","sash","screen","shutter"], "lure": "window"},
+    "SMELL": {"studied": ["nose","breathe","sniff","aroma","hear","see","nostril","whiff","scent","reek","stink","fragrance","perfume","salts","rose"], "lure": "smell"},
+    "MOUNTAIN": {"studied": ["hill","valley","climb","summit","top","molehill","peak","plain","glacier","goat","bike","climber","range","steep","ski"], "lure": "mountain"},
+    "MUSIC": {"studied": ["note","sound","piano","sing","radio","band","melody","horn","concert","instrument","symphony","jazz","orchestra","art","rhythm"], "lure": "music"},
+    "COLD": {"studied": ["hot","snow","warm","winter","ice","wet","frigid","chilly","heat","weather","freeze","air","shiver","arctic","frost"], "lure": "cold"},
+    "ANGER": {"studied": ["mad","fear","hate","rage","temper","fury","ire","wrath","happy","fight","hatred","mean","calm","emotion","enrage"], "lure": "anger"},
+    "DOCTOR": {"studied": ["nurse","sick","lawyer","medicine","health","hospital","dentist","physician","ill","patient","office","stethoscope","surgeon","clinic","cure"], "lure": "doctor"},
+    "RIVER": {"studied": ["water","stream","lake","Mississippi","boat","tide","swim","flow","run","barge","creek","brook","fish","bridge","winding"], "lure": "river"},
+    "FRUIT": {"studied": ["apple","vegetable","orange","kiwi","citrus","ripe","pear","banana","berry","cherry","basket","juice","salad","bowl","cocktail"], "lure": "fruit"},
+    "BLACK": {"studied": ["white","dark","cat","charcoal","night","funeral","color","grief","blue","death","ink","bottom","coal","brown","gray"], "lure": "black"},
+    "KING": {"studied": ["queen","England","crown","prince","George","dictator","palace","throne","chess","rule","subjects","monarch","royal","leader","reign"], "lure": "king"},
+    "BREAD": {"studied": ["butter","food","eat","sandwich","rye","jam","milk","flour","jelly","dough","crust","slice","wine","loaf","toast"], "lure": "bread"},
+    "SPIDER": {"studied": ["web","insect","bug","fright","fly","arachnid","crawl","tarantula","poison","bite","creepy","animal","ugly","feelers","small"], "lure": "spider"},
+    "SLOW": {"studied": ["fast","lethargic","stop","listless","snail","cautious","delay","traffic","turtle","hesitant","speed","quick","sluggish","wait","molasses"], "lure": "slow"},
+    "MAN": {"studied": ["woman","husband","uncle","lady","mouse","male","father","strong","friend","beard","person","handsome","muscle","suit","old"], "lure": "man"},
+    "SOFT": {"studied": ["hard","light","pillow","plush","loud","cotton","fur","touch","fluffy","feather","tender","skin","silk","smooth","kitten"], "lure": "soft"},
+    "THIEF": {"studied": ["steal","robber","crook","burglar","money","cop","bad","rob","jail","gun","villain","crime","bank","bandit","criminal"], "lure": "thief"},
+    "HIGH": {"studied": ["low","clouds","up","tall","tower","jump","above","building","noon","over","airplane","dive","elevate","cliff","sky"], "lure": "high"},
+    "LION": {"studied": ["tiger","circus","jungle","tamer","den","cub","Africa","mane","cage","feline","roar","fierce","wildcat","pride","cougar"], "lure": "lion"}
+  }
+}
